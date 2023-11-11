@@ -11,7 +11,7 @@ COPY ./backend/tsconfig*.json ./
 COPY ./backend/src ./src
 COPY ./backend/cfg ./cfg
 COPY ./backend/embedded_web ./embedded_web
-COPY ./backend/plugins ./plugins
+#COPY ./backend/plugins ./plugins
 RUN npm run build
 
 # Frontend
